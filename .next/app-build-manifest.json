@@ -37,14 +37,6 @@
       "static/chunks/main-app-3f5f6ccf9ce2ce53.js",
       "static/chunks/app/api/search/route-55dc01183fb2a3c1.js"
     ],
-    "/page": [
-      "static/chunks/webpack-7fa8c10b4e206502.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-38b49df12a94ee57.js",
-      "static/chunks/main-app-3f5f6ccf9ce2ce53.js",
-      "static/chunks/176-e669cb91a777795d.js",
-      "static/chunks/app/page-7b1433591223baff.js"
-    ],
     "/login/page": [
       "static/chunks/webpack-7fa8c10b4e206502.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
@@ -53,6 +45,22 @@
       "static/chunks/176-e669cb91a777795d.js",
       "static/chunks/489-ae793e33148aa03d.js",
       "static/chunks/app/login/page-3a5fa9d2c1998738.js"
+    ],
+    "/register/page": [
+      "static/chunks/webpack-7fa8c10b4e206502.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-3f5f6ccf9ce2ce53.js",
+      "static/chunks/176-e669cb91a777795d.js",
+      "static/chunks/app/register/page-81f31a3fa17a7e57.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-7fa8c10b4e206502.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-38b49df12a94ee57.js",
+      "static/chunks/main-app-3f5f6ccf9ce2ce53.js",
+      "static/chunks/176-e669cb91a777795d.js",
+      "static/chunks/app/page-7b1433591223baff.js"
     ],
     "/product/page": [
       "static/chunks/webpack-7fa8c10b4e206502.js",
@@ -69,14 +77,6 @@
       "static/chunks/main-app-3f5f6ccf9ce2ce53.js",
       "static/chunks/176-e669cb91a777795d.js",
       "static/chunks/app/search/page-e1b89e75a1e26e0c.js"
-    ],
-    "/register/page": [
-      "static/chunks/webpack-7fa8c10b4e206502.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-38b49df12a94ee57.js",
-      "static/chunks/main-app-3f5f6ccf9ce2ce53.js",
-      "static/chunks/176-e669cb91a777795d.js",
-      "static/chunks/app/register/page-81f31a3fa17a7e57.js"
     ]
   }
 }
