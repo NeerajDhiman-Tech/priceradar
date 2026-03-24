@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String     @id @default(uuid())
+  email     String     @unique
+  name      String?
+  image     String?
+  password  String?
+  alerts    Alert[]
+  wishlist  Wishlist[]
+  createdAt DateTime   @default(now())
+}
+
+model Product {
+  id        String     @id @default(uuid())
+  name      String
+  category  String
+  image     String?
+  brand     String?
+  prices    Price[]
+  alerts    Alert[]
+  wishlist  Wishlist[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model Price {
+  id        String   @id @default(uuid())
+  site      String
+  price     Float
+  url       String
+  inStock   Boolean  @default(true)
+  fetchedAt DateTime @default(now())
+  product   Product  @relation(fields: [productId], references: [id])
+  productId String
+}
+
+model Alert {
+  id          String   @id @default(uuid())
+  targetPrice Float
+  triggered   Boolean  @default(false)
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  product     Product  @relation(fields: [productId], references: [id])
+  productId   String
+  createdAt   DateTime @default(now())
+}
+
+model Wishlist {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  product   Product  @relation(fields: [productId], references: [id])
+  productId String
+  createdAt DateTime @default(now())
+}
