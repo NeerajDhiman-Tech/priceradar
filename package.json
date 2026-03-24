@@ -18,9 +18,7 @@
     "next-auth": "^4.24.0",
     "nodemailer": "^6.9.0",
     "react": "^19",
-    "react-dom": "^19",
-    "recharts": "^2.0.0",
-    "serpapi": "^2.0.0"
+    "react-dom": "^19"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.0",
