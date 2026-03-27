@@ -18,12 +18,13 @@
     "next-auth": "^4.24.0",
     "nodemailer": "^7.0.13",
     "react": "^19",
-    "react-dom": "^19"
+    "react-dom": "^19",
+    "recharts": "^3.8.1"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.0",
     "@types/node": "^20",
-    "@types/nodemailer": "^6.4.0",
+    "@types/nodemailer": "^6.4.23",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10",
